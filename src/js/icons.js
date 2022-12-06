@@ -1,5 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import fontawesome from '@fortawesome/fontawesome';
 
+import faClock from '@fortawesome/fontawesome-free-regular/faClock';
 
-<FontAwesomeIcon icon="fa-regular fa-clock" />
+fontawesome.config = {
+    autoReplaceSvg: 'nest'
+};
 
+fontawesome.library.add(faClock);
